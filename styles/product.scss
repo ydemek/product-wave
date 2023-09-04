@@ -1,0 +1,31 @@
+.product {
+    height: 350px;
+    &-image {
+        max-width   : 150px;
+        margin-right: 7rem;
+    }
+
+    &-discount {
+
+        p {
+            padding: .7rem .3rem;
+        }
+
+    }
+
+
+
+    button {
+        display: none;
+    }
+
+    .absolute {
+        .bg-white {
+            background-color: #0b78ae;
+        }
+
+        .bg-white\/50 {
+            background-color: #d3d8d4;
+        }
+    }
+}

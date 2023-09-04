@@ -1,0 +1,13 @@
+.product {
+  height: 350px; }
+  .product-image {
+    max-width: 150px;
+    margin-right: 7rem; }
+  .product-discount p {
+    padding: .7rem .3rem; }
+  .product button {
+    display: none; }
+  .product .absolute .bg-white {
+    background-color: #0b78ae; }
+  .product .absolute .bg-white\/50 {
+    background-color: #d3d8d4; }

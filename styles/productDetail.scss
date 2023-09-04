@@ -1,0 +1,91 @@
+.product {
+    margin: 2rem;
+    max-width: 500px;
+    margin: auto;
+    &-header {
+        display    : flex;
+        border-top : 1px solid #f4f4f4;
+        padding-top: 1rem;
+
+        &-brand {
+            color: #0b78ae;
+
+        }
+
+        &-badge {
+            width           : max-content;
+            padding         : 0 .5rem;
+            margin-top      : .5rem;
+            font-weight     : bold;
+            background-color: #fdf6ad;
+
+
+        }
+
+        &-stars {
+            display    : flex;
+            margin-left: auto;
+
+            svg {
+                width : 1rem;
+                height: 1rem;
+            }
+        }
+    }
+
+    &-body {
+        display        : flex;
+        align-items    : center;
+        justify-content: center;
+        padding        : 2rem 0;
+
+        &-image {
+            max-width: 200px;
+        }
+    }
+
+    &-footer {
+        &-capacities {
+            background-color: #fbfbfb;
+            padding         : 1rem;
+            border-top      : solid 1px #f4f4f4;
+
+            &-text {
+                text-align: center;
+                margin-bottom: .5rem;
+            }
+
+            &-container {
+                display: flex;
+                justify-content: center;
+                gap: 1rem;
+                &-item {
+                    cursor: pointer;
+                    text-align: center;
+                    background-color: white;
+                    padding         : .8rem 1.5rem;
+                    border          : 2px solid #eee;
+                    border-radius   : 4px;
+
+                    &:hover{
+                        border-color: #b5b5b5;
+                    }
+                }
+            }
+        }
+        &-prices{
+            text-align: center;
+            &-counts{
+                font-weight: bold;
+            }
+            &-shipping{
+                color: #597e58;
+                font-weight: bold;
+            }
+            &-update{
+                margin-top: .5rem;
+                opacity: .5;
+            }
+        }
+    }
+}
